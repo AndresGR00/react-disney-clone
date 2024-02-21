@@ -1,9 +1,9 @@
-import HighlightsCarousel from "./components/HighlightsCarousel";
+import FilmDetail from "./components/FilmDetail/FilmDetail.jsx";
 
 function App() {
   return (
     <>
-    <HighlightsCarousel />
+      <FilmDetail />
     </>
   );
 }
