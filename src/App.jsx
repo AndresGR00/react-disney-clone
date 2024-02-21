@@ -1,9 +1,16 @@
-import FilmDetail from "./components/FilmDetail/FilmDetail.jsx";
+import { Outlet } from "react-router-dom";
+import Header from "./components/Header/Header";
+import Footer from './components/Footer'
+
 
 function App() {
   return (
     <>
-      <FilmDetail />
+      <Header />
+      <main>
+        <Outlet />
+      </main>
+      <Footer />
     </>
   );
 }

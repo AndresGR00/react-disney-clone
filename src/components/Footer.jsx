@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <footer className="flex flex-col gap-2 justify-center items-center w-full py-4 dark:bg-gray-900 bg-slate-400">
-        <img src="#" alt="Logo Disney"/>
+        <img src="https://res.cloudinary.com/dbinlquvz/image/upload/v1708529917/Proyecto_11/logo_v8mgdf.svg" alt="Logo Disney" className=" w-28"/>
         <div className="py-4">
             <nav>
                 <ul className="flex flex-wrap gap-4 justify-center items-center text-sm">

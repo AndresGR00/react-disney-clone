@@ -1,7 +1,7 @@
 @media screen and (max-width: 900px){
     .container{
         grid-template-rows: repeat(6, 1fr)!important;
-        display: none;
+        width: 80%!important;
     }
     .title{
         grid-column-start: 1!important;
