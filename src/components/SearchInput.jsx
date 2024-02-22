@@ -1,7 +1,15 @@
-const SearchInput = () => {
+import PropTypes from "prop-types";
+
+const SearchInput = ({ onChange }) => {
+
+  const handleChange = (event) => {
+    onChange(event);
+  };
+
   return (
     <form action="#" className="w-full px-6">
       <input
+        onChange={handleChange}
         type="text"
         name="search-input"
         id="search-input"
@@ -10,6 +18,10 @@ const SearchInput = () => {
       />
     </form>
   );
+};
+
+SearchInput.propTypes = {
+  onChange: PropTypes.func,
 };
 
 export default SearchInput;

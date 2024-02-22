@@ -22,7 +22,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Route path="/my-list" element={<MyList />} />
           <Route path="/films" element={<Films />} />
           <Route path="/series" element={<Series />} />
-          <Route path="/content/:title" element={<ContentDetail />} />
+          <Route path="/content/:id" element={<ContentDetail />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>

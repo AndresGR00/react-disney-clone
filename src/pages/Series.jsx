@@ -38,12 +38,12 @@ const Series = () => {
     <section className="flex flex-col items-center justify-center gap-6">
       <h1 className="font-bold text-5xl pt-16">Series</h1>
       {loading ? (
-        <p>Loading...</p>
+        <p className='font-semibold text-lg pt-10'>Loading...</p>
       ) : (
         <ul className="flex flex-wrap justify-center items-center gap-4 p-6 pb-16">
           {series.map((serie) => (
             <li key={serie.imdbID}>
-              <Film img={serie.Poster} name={serie.Title} />
+              <Film img={serie.Poster} name={serie.Title} id={serie.imdbID}  />
             </li>
           ))}
         </ul>
