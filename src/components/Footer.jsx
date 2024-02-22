@@ -17,7 +17,7 @@ const Footer = () => {
                 </ul>
             </nav>
         </div>
-        <p className="text-xs">© Disney. Clone made with 🔥</p>
+        <p className="text-xs">© Disney. Practice made with 🔥</p>
     </footer>
   )
 }

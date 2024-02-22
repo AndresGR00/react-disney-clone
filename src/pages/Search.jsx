@@ -1,8 +1,12 @@
-import React from 'react'
+import SearchInput from '../components/SearchInput'
 
 const Search = () => {
   return (
-    <div>Search</div>
+    <>
+    <section>
+      <SearchInput />
+    </section>
+    </>
   )
 }
 

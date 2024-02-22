@@ -1,9 +1,17 @@
-import React from 'react'
+import HighlightsCarousel from "../components/HighlightsCarousel";
+import FranchisesContainer from "../components/FranchisesContainer";
 
 const Home = () => {
   return (
-    <div>Home</div>
-  )
-}
+    <>
+      <section>
+        <HighlightsCarousel />
+      </section>
+      <section>
+        <FranchisesContainer />
+      </section>
+    </>
+  );
+};
 
-export default Home
+export default Home;

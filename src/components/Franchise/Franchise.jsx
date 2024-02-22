@@ -34,7 +34,9 @@ const Franchise = ({ img, name, video }) => {
               loop
               width="100%"
               height="100%"
-              style={{ position: "absolute", zIndex: -1 }}
+              className="hover:scale-105"
+              style={{ position: "absolute", zIndex: -1,
+              transform: "scale(1.05)" }}
             />
           </div>
         )}
