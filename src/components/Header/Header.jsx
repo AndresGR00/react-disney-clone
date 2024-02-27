@@ -10,7 +10,7 @@ import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
-    <header className="flex items-center justify-between w-full dark:bg-black bg-slate-700 p-4">
+    <header className="flex items-center justify-between w-full dark:bg-gray-900 bg-slate-400 p-4">
       <NavLink to="">
         <img
           src="https://res.cloudinary.com/dbinlquvz/image/upload/v1708529917/Proyecto_11/logo_v8mgdf.svg"

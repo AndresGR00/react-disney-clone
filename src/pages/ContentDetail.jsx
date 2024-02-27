@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import FilmDetail from "../components/FilmDetail/FilmDetail";
+import FilmDetail from "../components/FilmDetail";
 import { useEffect, useState } from "react";
 
 const ContentDetail = () => {

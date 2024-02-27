@@ -4,7 +4,7 @@ const Footer = () => {
         <img src="https://res.cloudinary.com/dbinlquvz/image/upload/v1708529917/Proyecto_11/logo_v8mgdf.svg" alt="Logo Disney" className=" w-28"/>
         <div className="py-4">
             <nav>
-                <ul className="flex flex-wrap gap-4 justify-center items-center text-sm">
+                <ul className="flex flex-wrap gap-4 justify-center items-center text-sm font-medium">
                     <li className="hover:underline cursor-pointer">Privacy Policy</li>
                     <li className="hover:underline cursor-pointer">Cookies Policy</li>
                     <li className="hover:underline cursor-pointer">UK & EU Privacy Rights</li>

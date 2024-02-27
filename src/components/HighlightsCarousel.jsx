@@ -30,7 +30,7 @@ const HighlightsCarousel = () => {
         }}
         className="max-w-[1800px] w-full h-full rounded-2xl duration-500 relative"
       >
-        <h2 className="absolute bottom-5 left-5 text-4xl font-semibold">
+        <h2 className="absolute bottom-5 left-5 text-4xl font-semibold text-slate-100">
           {currentPicture.name}
         </h2>
 
