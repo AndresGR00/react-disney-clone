@@ -5,7 +5,7 @@ import HomeIcon from "../../data/Icons/HomeIcon";
 import MyList from "../../data/Icons/MyList";
 import SearchIcon from "../../data/Icons/SearchIcon";
 import SeriesIcon from "../../data/Icons/SeriesIcon";
-import ChangeThemeButton from "../ChangeThemeButton";
+/* import ChangeThemeButton from "../ChangeThemeButton"; */
 import { NavLink } from "react-router-dom";
 
 const Header = () => {
@@ -55,7 +55,7 @@ const Header = () => {
           </li>
         </ul>
       </nav>
-      <ChangeThemeButton />
+      {/* <ChangeThemeButton /> */}
     </header>
   );
 };
